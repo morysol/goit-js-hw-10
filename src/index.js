@@ -26,6 +26,7 @@ function onTextInput(searchPattern) {
     clearCountryList();
     return;
   }
+
   const baseURL = 'https://restcountries.com/v3.1/';
   const fields = 'name,capital,population,flags,languages';
   const url = `${baseURL}name/${searchPattern.trim()}?fields=${fields}`;
