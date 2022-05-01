@@ -3,11 +3,11 @@ const countryList = document.querySelector('.country-list');
 const countryInfo = document.querySelector('.country-info');
 
 function clearCountryCard() {
-  UI.countryInfo.innerHTML = '';
+  countryInfo.innerHTML = '';
 }
 
 function clearCountryList() {
-  UI.countryList.innerHTML = '';
+  countryList.innerHTML = '';
 }
 
 export default { searchBoxUI, countryList, countryInfo, clearCountryCard, clearCountryList };
